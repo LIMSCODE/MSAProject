@@ -1,3 +1,13 @@
+### 프로젝트 구조
+/*
+
+service1은 ID를 서비스2의 "get/name/{id}"로 API요청하고 이름을 받아옴
+
+service2의 NameController - 서비스2에서는 고객의 id를  받으며 해당하는 이름을 반환하는 기능 구현 
+
+*/
+
+
 ### 서비스디스커버리 구현
 - ServiceDiscoveryApplication에 @EnableEurekaServer활성화
 
@@ -6,14 +16,6 @@
 - service1의 Discoveryservice -유레카서버에 등록된 서비스목록을 가져온다. 
 
 - DiscoveryClient는 유레카클라이언트에서 제공하는 객체로 서비스의 정보를 찾아 제공한다.
-
-/*
-
-service1은 ID를 서비스2의 "get/name/{id}"로 API요청하고 이름을 받아옴
-
-service2의 NameController - 서비스2에서는 고객의 id를  받으며 해당하는 이름을 반환하는 기능 구현 
-
-*/
 
 build.gradle에 추가 / application.yml설정 / 스프링 유레카 대시보드에서 service1,2 등록된것 확인
 
