@@ -56,7 +56,7 @@ service1 > rest > FeignClientCommunicator에서 서비스2로 호출함을 명�
  
  Zuul에서 추출하여 유효하지않으면 401 에러반환
  
--서비스1에서 커스텀HttpHeader 확인
+-서비스1에서 커스텀HttpHeader 확인 
 
  @RequestHeader("foo") String foo
 
