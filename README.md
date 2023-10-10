@@ -91,8 +91,8 @@ service1 > rest > FeignClientCommunicator에서 서비스2로 호출함을 명�
 
 
 ##### 참조
-https://enjoy-dev.tistory.com/12
-https://techblog.lotteon.com/%EB%89%B4%EC%98%A8%EC%9D%B4%EB%93%A4%EC%9D%98-%EC%B2%AB-msa-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%8F%84%EC%A0%84%EA%B8%B0-d336186a7e31
+- https://enjoy-dev.tistory.com/12
+- https://techblog.lotteon.com/%EB%89%B4%EC%98%A8%EC%9D%B4%EB%93%A4%EC%9D%98-%EC%B2%AB-msa-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%8F%84%EC%A0%84%EA%B8%B0-d336186a7e31
 
 
 
