@@ -15,6 +15,7 @@ public class NameController {
     @Autowired
     NameService nameService;
 
+    //서비스2에서는 고객의 id를  받으며 해당하는 이름을 반환하는 기능 구현##
     @GetMapping(value = "/{id}")
     public String name(@PathVariable("id") String id) {
         return nameService.getName(id);

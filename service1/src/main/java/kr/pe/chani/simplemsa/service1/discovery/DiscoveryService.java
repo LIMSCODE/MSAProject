@@ -30,6 +30,9 @@ public class DiscoveryService {
     public List getServices(){
         List<String> services = new ArrayList<String>();
 
+        //유레카서버에 등록된 서비스목록을 가져온다. ##
+        //DiscoveryClient는 유레카클라이언트에서 제공 객체로
+        //서비스의 정보를 찾아 제공한다. 
         /** 람다스트림 표현 */
         discoveryClient.getServices().forEach(serviceName -> {
             discoveryClient.getInstances(serviceName).forEach(instance->{
